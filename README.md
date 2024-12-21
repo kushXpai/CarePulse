@@ -638,6 +638,7 @@ declare type UpdateAppointmentParams = {
   userId: string;
   appointment: Appointment;
   type: string;
+  timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
 };
 ```
 
